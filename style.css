@@ -12,19 +12,19 @@
     background: #00A94F;
     display: flex;
     justify-content: center;
+    max-height: 75px;
 }
 
 .header img{
-    max-height: 60px;
     padding: 20px;
-    height: 80px;
+    height: 50px;
 }
 
 h2{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 15px;
     margin-bottom: 20px;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     font-weight: 900;
 }
 
@@ -32,4 +32,58 @@ li{
     list-style: none;
     padding-left: 15px;
     font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.texto{
+    padding-top: 10px;
+}
+
+p{
+    padding-top: 1px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+
+.tabela{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+.tabela th{
+    padding: 30px;
+    background-color: #00A94F;
+    color: white;
+}
+
+.tabela td{
+    border: #00A94F solid 1px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+footer ul{
+    display: flex;
+    font-weight: 100;
+}
+
+footer img{
+    display: flex;
+    height: 55px;
+    filter: invert(1);
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
